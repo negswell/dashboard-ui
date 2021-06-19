@@ -8,6 +8,7 @@ import {
 import { Layout, Menu } from 'antd';
 import { useHistory } from 'react-router';
 
+/** NavigationBar Component */
 const NavigationBar: React.FC = () => {
   const [collapsed, setCollapsed] = React.useState(false);
   const history = useHistory();

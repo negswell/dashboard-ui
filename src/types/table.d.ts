@@ -1,3 +1,4 @@
+/** Reviews Response */
 interface IReviewResponse {
   reviewer: string;
   reviewee: string;

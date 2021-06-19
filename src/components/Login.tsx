@@ -6,6 +6,7 @@ import { useHistory } from 'react-router-dom';
 import firebase, { auth } from '../utils/firebaseConfig';
 import UserContext from '../Logic/UserContext';
 
+/** Login  Component */
 const Login: React.FC = () => {
   const history = useHistory();
   const { setUser } = React.useContext(UserContext);

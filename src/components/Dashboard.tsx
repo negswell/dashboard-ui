@@ -7,6 +7,7 @@ import UserContext from '../Logic/UserContext';
 import NavigationBar from './NavigationBar';
 import { auth } from '../utils/firebaseConfig';
 
+/** Dashboard Component */
 const Dashboard: React.FC = ({ children }) => {
   const { user } = useContext(UserContext);
   const { Content, Header } = Layout;

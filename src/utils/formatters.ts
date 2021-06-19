@@ -1,5 +1,6 @@
 import _ from 'lodash';
 
+/** Peer Formatter  */
 const formatPeers = (peersList: GetPeerResponse[]) => {
   const list = _.map(peersList, (peer: GetPeerResponse) => ({
     label: peer.name,
@@ -8,6 +9,7 @@ const formatPeers = (peersList: GetPeerResponse[]) => {
   return list;
 };
 
+/** Reviews Formatter */
 const formatReviews = (reviewList: any) => {
   const list = _.map(reviewList, (review: any) => ({
     ...review,

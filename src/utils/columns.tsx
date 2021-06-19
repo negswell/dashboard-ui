@@ -1,5 +1,6 @@
 import Delete from '../Widgets/Button/Delete';
 
+/** Review Table Columns */
 const getReviewTableColumns = (handleDelete: (id: string) => void) => {
   const reviewTableColumns = [
     {

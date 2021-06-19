@@ -9,6 +9,7 @@ import { Spin } from 'antd';
 import ManageReview from './components/ManageReview';
 import Review from './components/Review';
 
+/** App Component  */
 const App: React.FC = () => {
   const [user, setUser] = React.useState<IUser>(null);
   const [loading, setLoading] = React.useState(true);

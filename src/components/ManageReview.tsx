@@ -7,6 +7,7 @@ import getReviews from '../utils/getReviews';
 import { formatReviews } from '../utils/formatters';
 import { ExclamationCircleOutlined } from '@ant-design/icons';
 
+/** Manage Review Component */
 const ManageReview: React.FC = () => {
   const [reviews, setReviews] = React.useState<IReviewResponse[]>([]);
 
@@ -26,10 +27,7 @@ const ManageReview: React.FC = () => {
     });
   };
 
-  const columns = React.useMemo(
-    () => getReviewTableColumns(handleDelete),
-    [reviews]
-  );
+  const columns = getReviewTableColumns(handleDelete);
 
   return (
     <Dashboard>

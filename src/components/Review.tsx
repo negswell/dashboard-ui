@@ -6,6 +6,7 @@ import Dashboard from './Dashboard';
 import getPeers from '../utils/getPeers';
 import { formatPeers } from '../utils/formatters';
 
+/** Review Component */
 const Review: React.FC = () => {
   const [peers, setPeers] = React.useState<ISelectPeers[]>([]);
 

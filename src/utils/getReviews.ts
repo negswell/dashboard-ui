@@ -1,3 +1,4 @@
+/** get reviews api call  */
 const getReviews = async () => {
   const reviews = [
     {

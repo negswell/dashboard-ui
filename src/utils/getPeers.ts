@@ -1,3 +1,4 @@
+/** get peers api call  */
 const getPeers = async () => {
   const peers = [
     {

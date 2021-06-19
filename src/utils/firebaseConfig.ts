@@ -1,6 +1,7 @@
 import firebase from 'firebase';
 import '@firebase/auth';
 
+/** Firebase Config */
 const firebaseConfig = {
   apiKey: 'AIzaSyAse0Wv0ZvTMFplV00CuDTTViiW44a7sTo',
   authDomain: 'employee-review-dashboard.firebaseapp.com',
